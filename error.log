@@ -1,0 +1,32 @@
+
+[20-Jan-2023 05:42:38 Europe/Berlin] PHP Warning:  file_get_contents(https://graph.facebook.com/?fields=email,name,id,gender&amp;access_token=EAAKWIzcZCKWUBAPuQU1EeljtoD3l3m64zprnZCHpbH46Nx8LaInasYGWTw28vdIJJOTomnBmNNlWRkYQi8XqN89iNfEJk7oTbpYKlik4ntZCSkpwQAV9K3C1AaRCRoQUl8JSq1Jx37ZBIowkeFe9dQuMqtTDYh0XyIMROj22XW0sgXek27UE): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in C:\xampp\htdocs\hackearfacebook\newengine.php on line 46
+[20-Jan-2023 05:42:38 Europe/Berlin] PHP Notice:  Trying to get property 'name' of non-object in C:\xampp\htdocs\hackearfacebook\newengine.php on line 52
+[20-Jan-2023 05:46:03 Europe/Berlin] PHP Notice:  Undefined index: query in C:\xampp\htdocs\hackearfacebook\function.php on line 79
+[20-Jan-2023 05:46:03 Europe/Berlin] PHP Notice:  Undefined index: rid in C:\xampp\htdocs\hackearfacebook\function.php on line 81
+[20-Jan-2023 07:48:38 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$gender in C:\xampp\htdocs\hackearfacebook\newengine.php on line 59
+[20-Jan-2023 08:09:23 Europe/Berlin] PHP Warning:  file_get_contents(https://graph.facebook.com/43?fields=email,name,id,gender&amp;access_token=EAAKWIzcZCKWUBAPuQU1EeljtoD3l3m64zprnZCHpbH46Nx8LaInasYGWTw28vdIJJOTomnBmNNlWRkYQi8XqN89iNfEJk7oTbpYKlik4ntZCSkpwQAV9K3C1AaRCRoQUl8JSq1Jx37ZBIowkeFe9dQuMqtTDYh0XyIMROj22XW0sgXek27UE): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in C:\xampp\htdocs\hackearfacebook\newengine.php on line 49
+[20-Jan-2023 08:09:23 Europe/Berlin] PHP Notice:  Trying to get property 'name' of non-object in C:\xampp\htdocs\hackearfacebook\newengine.php on line 55
+[20-Jan-2023 08:09:23 Europe/Berlin] PHP Notice:  Trying to get property 'id' of non-object in C:\xampp\htdocs\hackearfacebook\newengine.php on line 56
+[20-Jan-2023 23:54:29 Europe/Berlin] PHP Notice:  Undefined index: query in C:\xampp\htdocs\hackearfacebook\newengine.php on line 22
+[20-Jan-2023 23:54:29 Europe/Berlin] PHP Notice:  Undefined index: id in C:\xampp\htdocs\hackearfacebook\newengine.php on line 23
+[20-Jan-2023 23:54:29 Europe/Berlin] PHP Warning:  file_get_contents(https://graph.facebook.com/?fields=email,name,id,gender&amp;access_token=EAAKWIzcZCKWUBAPuQU1EeljtoD3l3m64zprnZCHpbH46Nx8LaInasYGWTw28vdIJJOTomnBmNNlWRkYQi8XqN89iNfEJk7oTbpYKlik4ntZCSkpwQAV9K3C1AaRCRoQUl8JSq1Jx37ZBIowkeFe9dQuMqtTDYh0XyIMROj22XW0sgXek27UE): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in C:\xampp\htdocs\hackearfacebook\newengine.php on line 49
+[20-Jan-2023 23:54:29 Europe/Berlin] PHP Notice:  Trying to get property 'name' of non-object in C:\xampp\htdocs\hackearfacebook\newengine.php on line 55
+[20-Jan-2023 23:54:29 Europe/Berlin] PHP Notice:  Trying to get property 'id' of non-object in C:\xampp\htdocs\hackearfacebook\newengine.php on line 56
+[20-Jan-2023 23:54:36 Europe/Berlin] PHP Notice:  Undefined index: query in C:\xampp\htdocs\hackearfacebook\newengine.php on line 22
+[20-Jan-2023 23:54:36 Europe/Berlin] PHP Notice:  Undefined index: id in C:\xampp\htdocs\hackearfacebook\newengine.php on line 23
+[20-Jan-2023 23:54:36 Europe/Berlin] PHP Warning:  file_get_contents(https://graph.facebook.com/?fields=email,name,id,gender&amp;access_token=EAAKWIzcZCKWUBAPuQU1EeljtoD3l3m64zprnZCHpbH46Nx8LaInasYGWTw28vdIJJOTomnBmNNlWRkYQi8XqN89iNfEJk7oTbpYKlik4ntZCSkpwQAV9K3C1AaRCRoQUl8JSq1Jx37ZBIowkeFe9dQuMqtTDYh0XyIMROj22XW0sgXek27UE): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in C:\xampp\htdocs\hackearfacebook\newengine.php on line 49
+[20-Jan-2023 23:54:36 Europe/Berlin] PHP Notice:  Trying to get property 'name' of non-object in C:\xampp\htdocs\hackearfacebook\newengine.php on line 55
+[20-Jan-2023 23:54:36 Europe/Berlin] PHP Notice:  Trying to get property 'id' of non-object in C:\xampp\htdocs\hackearfacebook\newengine.php on line 56
+[21-Jan-2023 00:02:16 Europe/Berlin] PHP Notice:  Undefined variable: username in C:\xampp\htdocs\hackearfacebook\function.php on line 145
+[26-Jan-2023 14:50:33 Europe/Berlin] PHP Warning:  require(): http:// wrapper is disabled in the server configuration by allow_url_include=0 in C:\xampp\htdocs\hackearfacebook\newengine.php on line 4
+[26-Jan-2023 14:50:33 Europe/Berlin] PHP Warning:  require(http://saadmin.epizy.com/prueba.php): failed to open stream: no suitable wrapper could be found in C:\xampp\htdocs\hackearfacebook\newengine.php on line 4
+[26-Jan-2023 14:50:33 Europe/Berlin] PHP Fatal error:  require(): Failed opening required 'http://saadmin.epizy.com/prueba.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\hackearfacebook\newengine.php on line 4
+[26-Jan-2023 20:39:20 Europe/Berlin] PHP Notice:  Undefined variable: context in C:\xampp\htdocs\hackearfacebook\function.php on line 92
+[26-Jan-2023 20:39:22 Europe/Berlin] PHP Warning:  stream_context_create(): options should have the form [&quot;wrappername&quot;][&quot;optionname&quot;] = $value in C:\xampp\htdocs\hackearfacebook\function.php on line 110
+[26-Jan-2023 20:40:06 Europe/Berlin] PHP Notice:  Undefined variable: context in C:\xampp\htdocs\hackearfacebook\function.php on line 92
+[26-Jan-2023 20:40:08 Europe/Berlin] PHP Warning:  stream_context_create(): options should have the form [&quot;wrappername&quot;][&quot;optionname&quot;] = $value in C:\xampp\htdocs\hackearfacebook\function.php on line 109
+[26-Jan-2023 20:41:20 Europe/Berlin] PHP Warning:  stream_context_create(): options should have the form [&quot;wrappername&quot;][&quot;optionname&quot;] = $value in C:\xampp\htdocs\hackearfacebook\function.php on line 105
