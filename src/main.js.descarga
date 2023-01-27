@@ -1,0 +1,1 @@
+function searchUser(){var e=$(".user").val();$.get("engine.php?name="+e,function(e){if(e){if(e.error_code)$(".result").text(e.error_text);else{var r="User: "+e.username+"<br>";r+="Id: "+e.id+"<br>",r+='<img src="'+e.img+'">',$(".result").html(r)}}},"json")}

@@ -1,0 +1,137 @@
+.lefts {
+  float:left;
+  padding-right:50px;
+  margin-top: 10px;
+}
+.right {
+  float:right;
+}
+.form-control {
+  width:170px;
+  margin-top: 5px;
+}
+
+.leftq {
+  text-align: left;
+  font-size: 18px;
+}
+
+<style>
+
+@media screen and (max-width: 1199px) and (min-width: 300px) {
+
+
+
+  .panel.responsive_height {
+
+    height: auto !important;
+
+  }
+
+  .leftq {
+
+    font-size: 18px;
+
+    margin-left: 0 !important;
+
+    text-align: center;
+
+  }
+
+  .panel {
+
+    background-color: #fff;
+
+    border: 1px solid #ddd;
+
+    border-radius: 4px;
+
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+
+    margin-bottom: 20px;
+
+    padding: 15px;
+
+  }
+
+  body.home .panel.c1 {
+
+    height: 209px !important;
+
+    margin-bottom: 11px !important;
+
+  }
+
+  .mobileHide {
+
+    display: inline!important;
+
+  }
+
+}
+
+@media screen and (max-width: 500px) and (min-width: 200px) {
+
+  body.home .panel.c1 {
+
+    height: 394px !important;
+
+    margin-bottom: 11px !important;
+
+  }
+
+  .btn.btn-success {
+
+    font-size: 12px !important;
+
+  }
+
+  .label {
+
+    border-radius: 0.25em;
+
+    color: #fff;
+
+    display: inline;
+
+    font-size: 72%!important;
+
+    font-weight: 500;
+
+    padding: 0.25em 0.6em;
+
+    text-align: center;
+
+  }
+
+}
+
+@media screen and (max-width: 370px) and (min-width: 200px) {
+
+  .btn {
+
+    -moz-user-select: none;
+
+    border: 1px solid transparent;
+
+    border-radius: 4px;
+
+    cursor: pointer;
+
+    display: inline-block;
+
+    font-size: 14px;
+
+    font-weight: 700;
+
+    line-height: 1.42857;
+
+    margin-bottom: 0;
+
+    padding: 6px 0;
+
+  }
+
+
+
+}
